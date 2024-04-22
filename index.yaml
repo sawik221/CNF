@@ -1,0 +1,120 @@
+apiVersion: v1
+entries:
+  core-file-manager:
+  - apiVersion: v2
+    appVersion: 0.0.8
+    created: "2024-04-22T13:44:20.470737693Z"
+    description: A Helm chart for Kubernetes
+    digest: 78ab68b374dedc55595c90705cf566cf7dcf70c354bf2a8289c58e2a2b681d22
+    name: core-file-manager
+    type: application
+    urls:
+    - Packages/core-file-manager-0.0.8.tgz
+    version: 0.0.8
+  csrc:
+  - apiVersion: v2
+    appVersion: 0.5.2-0.0.2
+    created: "2024-04-22T13:44:20.471064357Z"
+    description: A Helm chart for Kubernetes
+    digest: 7df28bb1c79758eff6943dcaf407572836632661da478b4e48418b6d938de0d7
+    name: csrc
+    type: application
+    urls:
+    - Packages/csrc-0.5.2-0.0.2.tgz
+    version: 0.5.2-0.0.2
+  cwc:
+  - apiVersion: v2
+    appVersion: 0.14.15-0.0.6
+    created: "2024-04-22T13:44:20.471782074Z"
+    description: A Helm chart for Kubernetes
+    digest: 5ccb9136d2e1d5fa45bfabf0cc879e69a93cd67e91c408919df93ba644306db5
+    name: cwc
+    type: application
+    urls:
+    - Packages/cwc-0.14.15-0.0.6.tgz
+    version: 0.14.15-0.0.6
+  f5-cert-manager:
+  - apiVersion: v1
+    appVersion: 2.2.3
+    created: "2024-04-22T13:44:20.479805328Z"
+    description: f5-cert-manager chart.
+    digest: 6cd74bd20b2488dce70087661669bd36a5237d67c380d147f04e24a07e29008c
+    kubeVersion: '>= 1.22.0-0'
+    name: f5-cert-manager
+    urls:
+    - Packages/f5-cert-manager-0.22.22-0.0.2.tgz
+    version: 0.22.22-0.0.2
+  f5-crdconversion:
+  - apiVersion: v2
+    appVersion: v1.53.3
+    created: "2024-04-22T13:44:20.480396388Z"
+    description: A Helm chart for Kubernetes
+    digest: e42b191e2d3cc9bd0cdab20bf55ca627277c7bfca86593ac2d9c9ddd72be70b7
+    name: f5-crdconversion
+    type: application
+    urls:
+    - Packages/f5-crdconversion-0.9.4-0.0.3.tgz
+    version: 0.9.4-0.0.3
+  f5-dssm:
+  - apiVersion: v2
+    appVersion: v0.67.7-0.0.1
+    created: "2024-04-22T13:44:20.481246775Z"
+    description: A Helm chart for dSSM Sentinel
+    digest: bf439fcafc30e364fc7b2bc4e992041cb981847e2ca677f43246f9d2f4fcdf5f
+    name: f5-dssm
+    type: application
+    urls:
+    - Packages/f5-dssm-0.67.7-0.0.1.tgz
+    version: 0.67.7-0.0.1
+  f5-toda-fluentd:
+  - apiVersion: v2
+    appVersion: 1.23.36
+    created: "2024-04-22T13:44:20.481997193Z"
+    description: A Helm chart for Kubernetes
+    digest: 2ca9a24727262f8003a41918b5672b77cc0ba88b88e7843aa9d75989eba1fca1
+    name: f5-toda-fluentd
+    type: application
+    urls:
+    - Packages/f5-toda-fluentd-1.23.36.tgz
+    version: 1.23.36
+  f5ingress:
+  - apiVersion: v2
+    appVersion: v0.480.0-0.1.30
+    created: "2024-04-22T13:44:20.491077541Z"
+    dependencies:
+    - name: f5-downloader
+      repository: ""
+      version: 0.5.13-0.0.4
+    - name: f5-afm
+      repository: ""
+      version: 0.8.25-0.0.3
+    - name: f5-ipsd
+      repository: ""
+      version: 0.3.34-0.0.5
+    - name: f5-stats_collector
+      repository: ""
+      version: 0.2.8
+    - name: f5-tmm
+      repository: ""
+      version: 0.27.0-0.0.11
+    - name: f5-cne-proxy
+      repository: ""
+      version: 0.4.8
+    description: F5 Ingress Controller
+    digest: 690dc454aadf2f494c283f1bb4a08b7bdcd319f005b161af97095d1d3edc6346
+    name: f5ingress
+    urls:
+    - Packages/f5ingress-v0.480.0-0.1.30.tgz
+    version: v0.480.0-0.1.30
+  rabbitmq:
+  - apiVersion: v2
+    appVersion: 0.2.8-0.0.2
+    created: "2024-04-22T13:44:20.491359741Z"
+    description: A Helm chart for Kubernetes
+    digest: 69b7a89b3e371d266bf11f5d14515b0d8626c0675b79737bf947998b36a463ff
+    name: rabbitmq
+    type: application
+    urls:
+    - Packages/rabbitmq-0.2.8-0.0.2.tgz
+    version: 0.2.8-0.0.2
+generated: "2024-04-22T13:44:20.47016059Z"
