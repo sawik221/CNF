@@ -3,7 +3,7 @@ entries:
   core-file-manager:
   - apiVersion: v2
     appVersion: 0.0.8
-    created: "2024-04-22T13:44:20.470737693Z"
+    created: "2024-04-22T14:27:29.870335603Z"
     description: A Helm chart for Kubernetes
     digest: 78ab68b374dedc55595c90705cf566cf7dcf70c354bf2a8289c58e2a2b681d22
     name: core-file-manager
@@ -14,7 +14,7 @@ entries:
   csrc:
   - apiVersion: v2
     appVersion: 0.5.2-0.0.2
-    created: "2024-04-22T13:44:20.471064357Z"
+    created: "2024-04-22T14:27:29.870667326Z"
     description: A Helm chart for Kubernetes
     digest: 7df28bb1c79758eff6943dcaf407572836632661da478b4e48418b6d938de0d7
     name: csrc
@@ -25,7 +25,7 @@ entries:
   cwc:
   - apiVersion: v2
     appVersion: 0.14.15-0.0.6
-    created: "2024-04-22T13:44:20.471782074Z"
+    created: "2024-04-22T14:27:29.871410801Z"
     description: A Helm chart for Kubernetes
     digest: 5ccb9136d2e1d5fa45bfabf0cc879e69a93cd67e91c408919df93ba644306db5
     name: cwc
@@ -36,7 +36,7 @@ entries:
   f5-cert-manager:
   - apiVersion: v1
     appVersion: 2.2.3
-    created: "2024-04-22T13:44:20.479805328Z"
+    created: "2024-04-22T14:27:29.876784237Z"
     description: f5-cert-manager chart.
     digest: 6cd74bd20b2488dce70087661669bd36a5237d67c380d147f04e24a07e29008c
     kubeVersion: '>= 1.22.0-0'
@@ -44,10 +44,20 @@ entries:
     urls:
     - Packages/f5-cert-manager-0.22.22-0.0.2.tgz
     version: 0.22.22-0.0.2
+  f5-cnf-crds-n6lan:
+  - apiVersion: v2
+    appVersion: v0.161.0-0.1.2
+    created: "2024-04-22T14:27:29.881359495Z"
+    description: F5 modular BIG-IP CNF CRD bundle.
+    digest: ff58265d45f8b95cd73d5a9f9b12f63fb99de67d5c0463e0a4ff1696dd1befad
+    name: f5-cnf-crds-n6lan
+    urls:
+    - Packages/f5-cnf-crds-n6lan-0.161.0-0.1.2.tgz
+    version: 0.161.0-0.1.2
   f5-crdconversion:
   - apiVersion: v2
     appVersion: v1.53.3
-    created: "2024-04-22T13:44:20.480396388Z"
+    created: "2024-04-22T14:27:29.88229436Z"
     description: A Helm chart for Kubernetes
     digest: e42b191e2d3cc9bd0cdab20bf55ca627277c7bfca86593ac2d9c9ddd72be70b7
     name: f5-crdconversion
@@ -58,7 +68,7 @@ entries:
   f5-dssm:
   - apiVersion: v2
     appVersion: v0.67.7-0.0.1
-    created: "2024-04-22T13:44:20.481246775Z"
+    created: "2024-04-22T14:27:29.883334242Z"
     description: A Helm chart for dSSM Sentinel
     digest: bf439fcafc30e364fc7b2bc4e992041cb981847e2ca677f43246f9d2f4fcdf5f
     name: f5-dssm
@@ -69,7 +79,7 @@ entries:
   f5-toda-fluentd:
   - apiVersion: v2
     appVersion: 1.23.36
-    created: "2024-04-22T13:44:20.481997193Z"
+    created: "2024-04-22T14:27:29.88428685Z"
     description: A Helm chart for Kubernetes
     digest: 2ca9a24727262f8003a41918b5672b77cc0ba88b88e7843aa9d75989eba1fca1
     name: f5-toda-fluentd
@@ -80,7 +90,7 @@ entries:
   f5ingress:
   - apiVersion: v2
     appVersion: v0.480.0-0.1.30
-    created: "2024-04-22T13:44:20.491077541Z"
+    created: "2024-04-22T14:27:29.895628007Z"
     dependencies:
     - name: f5-downloader
       repository: ""
@@ -109,7 +119,7 @@ entries:
   rabbitmq:
   - apiVersion: v2
     appVersion: 0.2.8-0.0.2
-    created: "2024-04-22T13:44:20.491359741Z"
+    created: "2024-04-22T14:27:29.896441674Z"
     description: A Helm chart for Kubernetes
     digest: 69b7a89b3e371d266bf11f5d14515b0d8626c0675b79737bf947998b36a463ff
     name: rabbitmq
@@ -117,4 +127,4 @@ entries:
     urls:
     - Packages/rabbitmq-0.2.8-0.0.2.tgz
     version: 0.2.8-0.0.2
-generated: "2024-04-22T13:44:20.47016059Z"
+generated: "2024-04-22T14:27:29.869770182Z"
